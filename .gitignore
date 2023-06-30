@@ -1,0 +1,10 @@
+.vscode
+*.bin
+*.elf
+*.swp
+*.swn
+*.zip
+*.*~
+a.out
+commitmessage.txt
+gitpush.sh
