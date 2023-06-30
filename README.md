@@ -50,4 +50,4 @@ Please make sure to update tests as appropriate.
 ## License
 
 [GNU General Public License v3.0
-](https://choosealicense.com/licenses/GNU_GPL/)
+](https://github.com/Amal-T-Roy/Trivia_Quiz/blob/main/LICENSE)
