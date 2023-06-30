@@ -3,6 +3,7 @@ from data import question_data
 from quiz_brain import QuizBrain
 from ui import QuizInterface
 
+# List that will contain all questions
 question_bank = []
 for question in question_data:
     question_text = question["question"]
@@ -15,6 +16,7 @@ quiz = QuizBrain(question_bank)
 # create UI
 quiz_ui = QuizInterface(quiz)
 
+# Display questions
 while quiz.still_has_questions():
     quiz.next_question()
 

@@ -5,7 +5,7 @@ THEME_COLOR = "#375362"
 
 
 class QuizInterface:
-    """Quiz_brain is passed as parameter"""
+    """Handles the tkinter UI.Quiz_brain is passed as parameter"""
 
     def __init__(self, quiz_brain: QuizBrain):
         self.quiz = quiz_brain
@@ -54,7 +54,7 @@ class QuizInterface:
                 self.question_text, text=q_text
             )  # display question in canvas
         else:
-            self.canvas.itemconfig(text="You've reached the end of the questions!!")
+            self.canvas.itemconfig(self.question_text,text="You've reached the end of the questions!!")
 
     def true_pressed(self):
         """Called when true button is pressed"""
